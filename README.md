@@ -2,6 +2,8 @@
 
 La aplicación utiliza MongoDB como sistema de gestión de base de datos, con Mongoose para modelar la información. A continuación, se describen los modelos utilizados y sus campos.
 
+![Diagrama de la estructura de la base de datos](images/Diagram.png)
+
 ## Modelos
 
 ### Anime
