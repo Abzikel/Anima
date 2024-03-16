@@ -139,7 +139,10 @@ Para obtener una lista de todos los animes disponibles en la base de datos con s
 
 Para obtener la primera página de animes con 10 ítems por página:
 
-GET http://localhost:3001/animes?page=1&limit=10
+GET 
+```bash
+http://localhost:3001/animes?page=1&limit=10
+```
 
 Para cambiar de página, simplemente ajusta el valor del parámetro `page`.
 
@@ -163,15 +166,24 @@ Para buscar animes usando varios filtros y con soporte de paginación:
 
 Buscar animes por tipo `MOVIE` y estado `FINISHED`, mostrando 5 ítems por página en la página 2:
 
-GET http://localhost:3001/animes/filter?type=MOVIE&status=FINISHED&limit=5&page=2
+GET 
+```bash
+http://localhost:3001/animes/filter?type=MOVIE&status=FINISHED&limit=5&page=2
+```
 
 Buscar animes lanzados en la temporada de `FALL` del año `2020`, incluyendo paginación:
 
-GET http://localhost:3001/animes/filter?season=FALL&year=2020&page=1&limit=10
+GET 
+```bash
+http://localhost:3001/animes/filter?season=FALL&year=2020&page=1&limit=10
+```
 
 Combinando múltiples filtros, incluyendo tipo, estado, temporada, año y etiquetas, con paginación:
 
-GET http://localhost:3001/animes/filter?type=SPECIAL&status=FINISHED&season=FALL&year=2020&tags=music&page=1&limit=10
+GET 
+```bash
+http://localhost:3001/animes/filter?type=SPECIAL&status=FINISHED&season=FALL&year=2020&tags=music&page=1&limit=10
+```
 
 ### Posibles Valores para Filtros Específicos
 
@@ -309,7 +321,10 @@ Para consultar la lista de animes marcados como "animes por ver", los usuarios a
 
 Para consultar tu lista de animes "por ver" con paginación:
 
-GET http://localhost:3001/watchlist?page=1&limit=10
+GET 
+```bash
+http://localhost:3001/watchlist?page=1&limit=10
+```
 
 Ajusta los parámetros `page` y `limit` según sea necesario para tu consulta.
 
@@ -352,7 +367,10 @@ Para consultar la lista de animes marcados como "animes vistos", los usuarios au
 
 Para consultar tu lista de animes "vistos" con paginación:
 
-GET http://localhost:3001/watched?page=1&limit=10
+GET 
+```bash
+http://localhost:3001/watched?page=1&limit=10
+```
 
 Ajusta los parámetros `page` y `limit` según sea necesario para tu consulta.
 
@@ -395,6 +413,9 @@ Para consultar la lista de animes marcados como "animes favoritos", los usuarios
 
 Para consultar tu lista de animes "favoritos" con paginación:
 
-GET http://localhost:3001/favorites?page=1&limit=10
+GET 
+```bash
+http://localhost:3001/favorites?page=1&limit=10
+```
 
 Ajusta los parámetros `page` y `limit` según sea necesario para tu consulta.
