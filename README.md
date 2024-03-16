@@ -112,10 +112,10 @@ Antes de proceder, asegúrate de tener los siguientes requisitos previos cumplid
 2. **Ejecutar el Script de Importación**: Abre una terminal en la raíz de tu proyecto y ejecuta el script de importación con Node.js:
 
     ```bash
-    node path/to/importData.js
+    npx ts-node importData.ts
     ```
 
-    Asegúrate de reemplazar `path/to/importData.js` con la ruta correcta al archivo que contiene el script de importación.
+    Asegúrate de reemplazar `path/to/importData.ts` con la ruta correcta al archivo que contiene el script de importación.
 
 3. **Verificación**: Una vez completado el script, deberías ver un mensaje indicando que todos los datos han sido importados exitosamente. Puedes verificar los datos importados conectándote a tu base de datos MongoDB usando una herramienta como MongoDB Compass o en todo caso ejecutar alguno de los endpoints que se presentan más adelante.
 
