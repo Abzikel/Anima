@@ -123,6 +123,20 @@ Antes de proceder, asegúrate de tener los siguientes requisitos previos cumplid
 
 - Este script borrará cualquier dato existente en la colección de `animes` antes de importar los nuevos datos para evitar duplicados.
 
+# Ejecución de la aplicación
+
+Para iniciar la aplicación y la base de datos con Docker, ejecuta el siguiente comando en la raíz del proyecto:
+
+```bash
+    docker-compose up
+```
+
+Después de que los contenedores estén en funcionamiento, puedes iniciar la aplicación con:
+
+```bash
+    npx ts-node app.ts
+```
+
 # Guía de Uso de los Endpoints de la API de Animes
 
 ## Consulta de Todos los Animes con Paginación
