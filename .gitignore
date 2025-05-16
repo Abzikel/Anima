@@ -10,3 +10,4 @@ anime-offline-database.json
 # Venv
 venv/
 .env/
+venv_test/
